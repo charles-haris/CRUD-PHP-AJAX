@@ -76,7 +76,6 @@
          $sql="SELECT * from user where id_user=".$_GET['id_user'];
          $data=$conn->query($sql,PDO::FETCH_ASSOC);
          $donnee=$data->fetch();
-         //var_dump($donnee);
         ?>
         <form action="" method="post">
             <input class="champ" type="hidden" id="id" placeholder="write your name" value="<?= $donnee['id_user']?>" required>
