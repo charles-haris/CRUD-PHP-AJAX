@@ -25,7 +25,6 @@ function insert(){
     $insert->bindParam(":prenom_user",$prenom);
     $insert->bindParam(":tel_user",$tel);
     $insert->bindParam(":adresse",$adresse);
-    //$insert->bindParam(":id_user",$id);
 
 
     if($insert->execute()){
