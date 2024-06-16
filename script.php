@@ -26,15 +26,7 @@
                         function move() {
                             window.location.href="list.php";
                         }
-                        /* var inputName = document.getElementById("name");
-                        var inputFirstName = document.getElementById("first_name");
-                        var inputTel = document.getElementById("tel");
-                        var inputAddress = document.getElementById("Address");
 
-                        inputName.value="";
-                        inputFirstName.value="";
-                        inputTel.value="";
-                        inputAddress.value=""; */
 
                     }
 
